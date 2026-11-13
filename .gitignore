@@ -1,0 +1,8 @@
+token.pickle
+.env
+.txt
+filter.csv 
+videos.csv
+client_secrets.json
+config.yaml
+*__pycache__*

@@ -1,0 +1,26 @@
+# List of one or more YouTube channel URLs (one per line is fine, but YAML list here)
+channels:
+  - YouTube link here 
+
+channel_ids:
+  - UCXXXXXXXXXXXXXXXX
+
+# Keywords that must appear in the title/description
+include:
+  - example
+
+# (Optional) Keywords that must NOT appear
+exclude:
+  - example
+
+# (Optional) Force a full uploads scan even if only one include term and no excludes
+full_scan: true
+
+# (Optional) If you want a custom playlist title instead of the default
+playlist_title: example
+
+# (Optional) A description to set on the playlist
+playlist_description: example
+
+# (Optional) Playlist privacy: public, unlisted, or private
+privacy: private
